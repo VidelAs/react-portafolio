@@ -79,7 +79,7 @@ export const Banner = () => {
                     Costa Rica, I am 18 years old, my birthday is November 13
                   </p>
                   <button onClick={() => console.log('connect')}>
-                    Let’s Connect <ArrowRightCircle size={25} />
+                    Let's Connect <ArrowRightCircle size={25} />
                   </button>
                 </div>
               )}
