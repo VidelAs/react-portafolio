@@ -409,7 +409,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #78DEDB 111.58%);
+  background: #939D9C;
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -455,7 +455,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #78DEDB 111.58%);
+  background: #6B6E6E;
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -468,7 +468,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form input, .contact form textarea {
   width: 100%;
-  background: rgba(255, 255, 255, 0.1);
+  background: #fff;
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 20px;
   color: #fff;
@@ -499,7 +499,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 14px 48px;
   font-size: 18px;
   margin-top: 25px;
-  border-radius: 0;
+  border-radius: 5px;
   position: relative;
   transition: 0.3s ease-in-out;
 }
@@ -509,10 +509,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button:hover {
   color: #fff;
+  border-radius: 5px;
 }
 .contact form button::before {
   content: "";
-  background: #121212;
+  background: #AD89D0;
   width: 0;
   height: 100%;
   position: absolute;
@@ -520,6 +521,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   left: 0;
   z-index: 0;
   transition: 0.3s ease-in-out;
+  border-radius: 5px;
 }
 .contact form button:hover::before {
   width: 100%;
