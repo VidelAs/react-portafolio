@@ -13,3 +13,9 @@ This project is composed of 7 react components and they have styles from the App
 ## The finished page looks like this:
 
 ![image](images/web.PNG)
+
+![image](images/skills.PNG)
+
+![image](images/projects.PNG)
+
+![image](images/contact.PNG)
