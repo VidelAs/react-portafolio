@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import headerImg from '../assets/img/header-img.svg';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import TrackVisibility from 'react-on-screen';
-
+import CV from '../assets/cv.pdf';
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -78,9 +78,9 @@ export const Banner = () => {
                     Engineering career, I study at the Central University of
                     Costa Rica, I am 18 years old, my birthday is November 13
                   </p>
-                  <button onClick={() => console.log('connect')}>
-                    Let's Connect <ArrowRightCircle size={25} />
-                  </button>
+                  <a href={CV} download=" " className="button button--flex">
+                    Download CV
+                  </a>
                 </div>
               )}
             </TrackVisibility>
